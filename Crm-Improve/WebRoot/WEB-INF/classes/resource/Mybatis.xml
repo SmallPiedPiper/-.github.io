@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 别名 ,就是不用再一一注明返回的类型了，直接用类的名字就可以的-->
+	<typeAliases>
+		<package name="cn.zyd.po"/>
+	</typeAliases>
+	<!-- mapper的位置 -->
+	<mappers>
+		<package name="cn.zyd.dao"/>
+	</mappers>
+</configuration>
